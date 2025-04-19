@@ -1,5 +1,9 @@
 # goIT-Tool
 IT Multitool
+I am planning to create tool what can allow users to change windows settings without need to put in Administrator credentials.
+- this is mostly good for IT people who may be in field and they need to change the network settings but their device has normal user access, so they do not need to type the details ( or have them in first place )
+- over time I would add more tools, like FTP, HTTP file share....
+- For now I am focusing on editing Hosts file and changing IP network settings
 
 ```powershell
 go mod init win-multitool
@@ -28,5 +32,6 @@ sc create HostsEditorService binPath="C:\temp\projects\go\win-multitool\win-mult
 
 ## Currently working:
 1. When you start it as administrator, user can open the Hosts file and edit it using Notepad.
-![image](https://github.com/user-attachments/assets/dd354287-dc86-42c7-8b99-00898f0e5b63)
-![image](https://github.com/user-attachments/assets/8b960c04-ea07-4003-84b1-51ad8af275a5)
+
+   ![image](https://github.com/user-attachments/assets/dd354287-dc86-42c7-8b99-00898f0e5b63)
+   ![image](https://github.com/user-attachments/assets/8b960c04-ea07-4003-84b1-51ad8af275a5)
